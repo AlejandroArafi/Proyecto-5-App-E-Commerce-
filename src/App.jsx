@@ -1,8 +1,4 @@
-
-
 import './App.css'
-import { Navbar } from './componentes/Navbar/Navbar'
-import { Footer } from './componentes/footer/Footer'
 import { MainRoutes } from './routes/MainRoutes'
 
 const App =()=>{
@@ -16,6 +12,7 @@ const App =()=>{
    
     <MainRoutes />
     {/* <Footer/> */}
+    <searchButton/>
 
     
       

@@ -22,13 +22,13 @@ export const Navbar = () => {
             <NavLink className="nav-item nav-link" to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-item nav-link" to="#">Productos</NavLink>
+            <NavLink className="nav-item nav-link" to="/productos">Productos</NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-item nav-link" to="/login">Login</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-item nav-link" to="#">Contacto</NavLink>
+            <NavLink className="nav-item nav-link" to="/contacto">Contacto</NavLink>
           </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@ export const Navbar = () => {
   
   </nav>
 
-  <nav className="navbar navbar-light bg-light">
+  {/* <nav className="navbar navbar-light bg-light">
   <div className="container-fluid">
     <form className="d-flex">
       <input className="form-control me-2" type="search" placeholder="¿Que producto buscas?" aria-label="Search"/>
@@ -46,7 +46,7 @@ export const Navbar = () => {
   </div>
 
 
-</nav>
+</nav> */}
   </div>
   </>
 

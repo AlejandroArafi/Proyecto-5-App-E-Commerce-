@@ -7,45 +7,43 @@ export const Footer = () => {
         <div className="container">
             <div className="row">
                 <div className="footer-col">
-                    <h4>Company</h4>
+                    <h4>Información</h4>
                     <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">affilate program</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Politicas de despacho</a></li>
+                        <li><a href="#">Servicio al cliente</a></li>
                     </ul>
                 </div>
                 <div className="footer-col">
-                    <h4>get help</h4>
+                    <h4>Centro de ayuda</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment option</a></li>
+                        <li><a href="#">Contactenos</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Recupera tu boleta</a></li>
+                        
                     </ul>
                 </div>
                 <div className="footer-col">
-                    <h4>online shop</h4>
+                    <h4>Mi cuenta</h4>
                     <ul>
-                        <li><a href="#">groceries</a></li>
-                        <li><a href="#">electronics</a></li>
-                        <li><a href="#">dress</a></li>
-                        <li><a href="#">smartphones</a></li>
+                        <li><a href="#">Mis pedidos</a></li>
+                        <li><a href="#">Mis datos personales</a></li>
                     </ul>
                 </div>
                 <div className="footer-col">
-                    <h4>follow us</h4>
+                    <h4>Nuestras redes</h4>
                     <div className="social-link">
                         <a href=""><i className="fab fa-facebook"></i></a>
                         <a href=""><i className="fab fa-instagram"></i></a>
                         <a href=""><i className="fab fa-twitter"></i></a>
-                        <a href=""><i className="fab fa-linkedin"></i></a>
+                        {/* <a href=""><i className="fab fa-linkedin"></i></a> */}
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <p>© 2018 VINEDO. All Rights Reserved.</p>
     </>
   )
 }
