@@ -8,15 +8,18 @@ import { ContactPage } from "../pages/ContactPage";
 import { ProductsPage } from "../pages/ProductsPage";
 import { Search } from "../componentes/searchButton/Search";
 import './MainRoutes.css'
+import { DiSanti } from "../componentes/diSanti/DiSanti";
+
+
 
 export const MainRoutes = () => {
   return (
     <div>
       <Search />
-      <h2 className="title">Di Santi</h2>
-      <p className="subtitle">Pasión por el vino</p>
+      <DiSanti/>
+      
       <Navbar />
-
+      
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="productos" element={<ProductsPage />} />
@@ -24,6 +27,8 @@ export const MainRoutes = () => {
         <Route path="signin" element={<Signin />} />
         <Route path="contacto" element={<ContactPage />} />
       </Routes>
+      
+      
       <Footer />
     </div>
   );

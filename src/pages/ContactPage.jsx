@@ -1,6 +1,6 @@
 import './ContactPage.css'
 export const ContactPage = () => {
   return (
-    <h2 className="title">Contáctanos</h2>
+    <h2 className="Contact">Contáctanos</h2>
   )
 }

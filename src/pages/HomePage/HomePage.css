@@ -9,28 +9,21 @@
     filter: blur(1px);
 }
 
-.title, p{
-    font-family: 'Playfair Display SC', serif;
-   display: flex;
-   justify-content:center;
-}
-.title {
-    font-size: 3em;
-    color: #444349;
-    letter-spacing: 0.5px;
-   
-}
-p {
+
+/* p {
     font-size: 1em;
     color:#A9A6A6 ;
     letter-spacing: 3px;
-}
-.welcomeTitle{
+    font-family: 'Playfair Display SC', serif;
+    display: flex;
+    justify-content:center;
+} */
+.welcome-title{
 display: flex;
 justify-content: center;
 margin-top: 5%;
 }
-.productsTitle {
+.products-title {
     display: flex;
     justify-content: center;
 }

@@ -27,7 +27,7 @@ export const LoginPage = () => {
 
   return (
     <>
-      <h2 className="title">Inicia sesión</h2>
+      <h2 className="login-title">Inicia sesión</h2>
 
       <form onSubmit={handleFormSubmit}>
         <div className="mb-3">
