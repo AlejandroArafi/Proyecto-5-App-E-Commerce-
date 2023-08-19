@@ -7,13 +7,14 @@ import { Footer } from "../componentes/footer/Footer";
 import { ContactPage } from "../pages/ContactPage";
 import { ProductsPage } from "../pages/ProductsPage";
 import { Search } from "../componentes/searchButton/Search";
+import './MainRoutes.css'
 
 export const MainRoutes = () => {
   return (
     <div>
       <Search />
       <h2 className="title">Di Santi</h2>
-      <p>Pasión por el vino</p>
+      <p className="subtitle">Pasión por el vino</p>
       <Navbar />
 
       <Routes>

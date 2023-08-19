@@ -32,7 +32,7 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-col">
-                    <h4>Nuestras redes</h4>
+                    <h4 className='title-rrss'>Nuestras redes</h4>
                     <div className="social-link">
                         <a href=""><i className="fab fa-facebook"></i></a>
                         <a href=""><i className="fab fa-instagram"></i></a>
@@ -42,8 +42,9 @@ export const Footer = () => {
                 </div>
             </div>
         </div>
+        <p className='reserved'>© 2023 Di Santi. All Rights Reserved.</p>
     </div>
-    <p>© 2018 VINEDO. All Rights Reserved.</p>
+    
     </>
   )
 }

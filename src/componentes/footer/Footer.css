@@ -14,7 +14,8 @@ body{
     margin: auto;
 }
 .footer {
-    background: #171717;
+    /* background: #a34646; */
+    background-color: #302e37;
     padding: 70px 0;
 }
 .row {
@@ -80,6 +81,11 @@ h4 {
 .footer-col .social-link a:hover {
     color: #081b29;
     background: #fff;
+}
+
+.reserved {
+    color: beige;
+    background-color: rgba(165, 42, 42, 0.645);
 }
 @media(max-width: 767px){
     .footer-col{

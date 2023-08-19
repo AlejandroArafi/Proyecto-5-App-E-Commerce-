@@ -1,6 +1,7 @@
-
+import './Search.css'
 export const Search = () => {
   return (
+    <div className='cajaSearch'>
     <nav className="navbar navbar-light bg-light">
     <div className="container-fluid">
       <form className="d-flex">
@@ -9,5 +10,6 @@ export const Search = () => {
       </form>
     </div>
   </nav>
+  </div>
   )
 }
