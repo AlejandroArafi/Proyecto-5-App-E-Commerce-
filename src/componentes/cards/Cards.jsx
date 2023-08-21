@@ -2,64 +2,53 @@ import './Cards.css'
 import CAPITULO from '../../assets/images/CAPITULO.png'
 
 
+
+
+
 export const Cards = () => {
   return (
     <>
-    <div className="cards">
+    <div className="container">
+        <div className="cards">
+            <div className="card-img">
+                <img src={CAPITULO} alt="capitulo" />
+            </div>
+            <div className="card-body">
+                <h2>Vino Odfjell Capitulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem exercitationem architecto ad fugiat nemo aspernatur error, blanditiis ducimus corrupti!</p>
+            </div>
+            <div className="card-footer">
+                <button>Read More</button>
+            </div>
+        </div>
 
-    <div className="wrapper">
-    <div className="product-img">
-     <img className='capitulo' src={CAPITULO} alt="" />
-    </div>
-    <div className="product-info">
-      <div className="product-text">
-        <h1>Harvest Vase</h1>
-        <h2>by studio and friends</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div className="product-price-btn">
-        <p><span>78</span>$</p>
-        <button type="button">buy now</button>
-      </div>
-    </div>
-  </div>
+        <div className="cards">
+            <div className="card-img">
+                <img src={CAPITULO} alt="capitulo" />
+            </div>
+            <div className="card-body">
+                <h2>Vino Odfjell Capitulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem exercitationem architecto ad fugiat nemo aspernatur error, blanditiis ducimus corrupti!</p>
+            </div>
+            <div className="card-footer">
+                <button>Read More</button>
+            </div>
+        </div>
 
-  <div className="wrapper">
-    <div className="product-img">
-     <img className='capitulo' src={CAPITULO} alt="" />
+        <div className="cards">
+            <div className="card-img">
+                <img src={CAPITULO} alt="capitulo" />
+            </div>
+            <div className="card-body">
+                <h2>Vino Odfjell Capitulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores autem exercitationem architecto ad fugiat nemo aspernatur error, blanditiis ducimus corrupti!</p>
+            </div>
+            <div className="card-footer">
+                <button>Read More</button>
+            </div>
+        </div>
     </div>
-    <div className="product-info">
-      <div className="product-text">
-        <h1>Harvest Vase</h1>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Harvest Vases are a reinterpretation</p>
-      </div>
-      <div className="product-price-btn">
-        <p><span>78</span>$</p>
-        <button type="button">buy now</button>
-      </div>
-    </div>
-  </div>
-
-  <div className="wrapper">
-    <div className="product-img">
-     <img className='capitulo' src={CAPITULO} alt="" />
-    </div>
-    <div className="product-info">
-      <div className="product-text">
-        <h1>Harvest Vase</h1>
-        <h2>by studio and friends</h2>
-        <p>Harvest Vases are a reinterpretation</p>
-      </div>
-      <div className="product-price-btn">
-        <p><span>78</span>$</p>
-        <button type="button">buy now</button>
-      </div>
-    </div>
-  </div>
-  </div>
-
- 
+    
     </>
   )
 }

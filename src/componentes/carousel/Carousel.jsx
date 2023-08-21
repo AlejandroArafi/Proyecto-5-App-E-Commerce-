@@ -1,31 +1,48 @@
-import './carousel.css'
+import Carousel from 'react-bootstrap/Carousel';
+// import img1 from '../../assets/images/capitulo.png'
+// import img2 from '../../assets/images/castilloDeMolina.png'
+// import img3 from '../../assets/images/ventisquero.jpg'
+import img4 from '../../assets/images/capitulo.png'
+import castillo from '../../assets/images/castilloDeMolina.png'
 
-export const Carousel = () => {
+export const Slider = () => {
   return (
-    
-    <>
-    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="10000">
-      <img src={'https://s7d2.scene7.com/is/image/Tottus/01015080_1?wid=1500&hei=1500&qlt=70'} className="d-block w-100" alt="..."/>
+      <>
+  <div className='d-flex justify-content-center'>
+    <Carousel>
+      <Carousel.Item>
+      <img
+          className="d-block w-40 mx-auto"
+          src={img4}
+          alt="First slide"
+        />
+                <Carousel.Caption>
+         
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img
+          className="d-block w-40 mx-auto"
+          src={img4}
+          alt="First slide"
+        />
+        
+        <Carousel.Caption>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img
+          className="d-block w-40 mx-auto"
+          src={img4}
+          alt="First slide"
+        />
+                <Carousel.Caption>
+          </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <img src="https://s7d2.scene7.com/is/image/Tottus/01015080_1?wid=1500&hei=1500&qlt=70" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="https://s7d2.scene7.com/is/image/Tottus/01015080_1?wid=1500&hei=1500&qlt=70" className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-    
+  );
     </>
   )
 }

@@ -1,4 +1,6 @@
-import { Carousel } from '../componentes/carousel/Carousel'
+
+// import { Carousel } from '../componentes/carousel/Carousel'
+import { Cards } from '../componentes/cards/Cards'
 import './ProductsPage.css'
 
 export const ProductsPage = () => {
@@ -6,16 +8,20 @@ export const ProductsPage = () => {
     <>
       <h2 className='products'>Productos</h2>
 
-      <div className="category-box">
+      {/* <div className="category-box">
         <p className='category'>Categorias</p>
 
         <ul className="group-li">
           <li>Vinos</li>
           <li>Vinos emsamblajes</li>
           <li>Vinos gran reserva</li>
-        </ul>
-        <Carousel/>
-      </div>
+        </ul> */}
+       
+        <Cards/>
+      
+                      
+       
+      {/* </div> */}
     
       </>
   )

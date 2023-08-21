@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.category {
+    font-family: "poppins", sans-serif;
+    color: black;
+    margin-left: 40px;
+}
 .category-box {
     display: flex;
     flex-direction: column;
     width: 200px;
-    list-style: none;
     color: #C1AE9C;
-    background-color: brown;
-    
+    background-color: rgb(205, 19, 19);
 }
 .category-box li{
     list-style: none;
+    margin-bottom: 5px;
 }
 
 .products {
@@ -18,14 +23,6 @@
    justify-content: center;
    font-size: 3em;
     color: #444349;
-    background-color: brown;
-       
+    /* background-color: brown;      */
 }
-.category {
-    font-family: "poppins", sans-serif;
-    color: black;
-    margin-left: 40px;
-}
-.group-li li{
-    margin-bottom: 5px;
-}
+
