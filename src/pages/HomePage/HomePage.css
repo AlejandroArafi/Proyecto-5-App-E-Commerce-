@@ -20,7 +20,8 @@
     height: 50vh;
     object-fit: cover;
     object-position: 0 25%;
-    filter: blur(1px);
+    filter: blur(2px);
+    opacity: 0.9;
 }
 .text-overlay {
     position: absolute;
@@ -32,6 +33,7 @@
     font-weight: 400;
     font-size: 60px;
     font-family: 'Playfair Display SC', serif;
+    text-shadow: #000 1px 0 10px;
   }
   
   .text-overlay h3{
@@ -39,6 +41,7 @@
     font-weight: 400;
     color: whitesmoke;
         font-family: 'Playfair Display SC', serif;
+        text-shadow: #000 1px 0 10px;
   }
   .text-overlay h5 {
     font-size: 20px;
@@ -46,8 +49,13 @@
     margin-top: 20px;
     color: whitesmoke;
     font-family: 'Playfair Display SC', serif;
+    text-wrap: balance; /*averiguar*/
      }
 
+     .text-overlay button {
+
+     }
+    
  
 /*alternativa pasion por el vino*/
 /* p {
@@ -62,12 +70,29 @@
 display: flex;
 justify-content: center;
 margin-top: 5%;
+
 }
 
 .products-title {
     display: flex;
     justify-content: center;
 }
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;   
+    text-align: center;
+    margin-bottom: 5%;
+  
+   }
+
+.centered-paragrap {
+    max-width: 75ch;
+    text-wrap: balance;
+}
+
 
 /* .main-home h3{
     position: absolute;

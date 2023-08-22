@@ -10,6 +10,7 @@ import { Search } from "../componentes/searchButton/Search";
 import './MainRoutes.css'
 import { DiSanti } from "../componentes/diSanti/DiSanti";
 import { Navicon } from "../componentes/navicon/Navicon";
+import { ResultsPage } from "../pages/ResultsPage/ResultsPage";
 
 export const MainRoutes = () => {
   return (
@@ -28,7 +29,8 @@ export const MainRoutes = () => {
         <Route path="login" element={<LoginPage />} />
         <Route path="signin" element={<Signin />} />
         <Route path="contacto" element={<ContactPage />} />
-      </Routes>
+        <Route path="results" element={<ResultsPage />} />
+        </Routes>
       {/* <Footer /> */}
     </div>
   );
