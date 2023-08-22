@@ -18,6 +18,7 @@ export const ProductsPage = () => {
         </ul> */}
        
         <Cards/>
+        
       
                       
        

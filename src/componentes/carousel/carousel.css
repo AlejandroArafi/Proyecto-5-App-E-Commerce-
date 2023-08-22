@@ -1,0 +1,13 @@
+/* Slider.css */
+.d-flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel.item img {
+    width: 100%; /* Hacer las imágenes responsivas */
+    /* Otros estilos que quieras aplicar a las imágenes */
+  }
+  
+  /* Agrega más estilos según tus necesidades */
+  

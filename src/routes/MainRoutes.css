@@ -1,0 +1,8 @@
+.navs {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-color: hsla(23, 61%, 81%, 0.074);
+   height: 70px;
+}

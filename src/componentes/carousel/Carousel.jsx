@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
-// import img1 from '../../assets/images/capitulo.png'
-// import img2 from '../../assets/images/castilloDeMolina.png'
-// import img3 from '../../assets/images/ventisquero.jpg'
-import img4 from '../../assets/images/capitulo.png'
-import castillo from '../../assets/images/castilloDeMolina.png'
+import img1 from '../../assets/images/barbera.png'
+import img2 from '../../assets/images/capitulo.png'
+import img3 from '../../assets/images/flaberty.png'
+ 
+
 
 export const Slider = () => {
   return (
@@ -13,7 +13,7 @@ export const Slider = () => {
       <Carousel.Item>
       <img
           className="d-block w-40 mx-auto"
-          src={img4}
+          src={img1}
           alt="First slide"
         />
                 <Carousel.Caption>
@@ -21,9 +21,10 @@ export const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+   
       <img
           className="d-block w-40 mx-auto"
-          src={img4}
+          src={img2}
           alt="First slide"
         />
         
@@ -34,7 +35,7 @@ export const Slider = () => {
       <Carousel.Item>
       <img
           className="d-block w-40 mx-auto"
-          src={img4}
+          src={img3}
           alt="First slide"
         />
                 <Carousel.Caption>

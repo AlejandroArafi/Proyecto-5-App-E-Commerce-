@@ -1,14 +1,11 @@
 import { NavLink } from "react-router-dom"
 import './Navbar.css'
 
-
 export const Navbar = () => {
   return (
     <>
-
     <div className="navbar">
   
-
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
     <div className="container-fluid">
       <a className="navbar-brand" href="#"></a>
@@ -32,21 +29,9 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-  
-      </div>
-  
-  </nav>
+        </div>
+    </nav>
 
-  {/* <nav className="navbar navbar-light bg-light">
-  <div className="container-fluid">
-    <form className="d-flex">
-      <input className="form-control me-2" type="search" placeholder="¿Que producto buscas?" aria-label="Search"/>
-      <button className="btn btn-outline-success" type="submit">Buscar</button>
-    </form>
-  </div>
-
-
-</nav> */}
   </div>
   </>
 
