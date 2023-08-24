@@ -1,35 +1,30 @@
-.login-title {
+.creat-account {
     display: flex;
     justify-content: center;
-      color: #444349;
     margin-bottom: 20px;
 }
 
-.mb-3 .form-control {
-    width: 300px;
-}
-
-.login-form-container {
+.sign-form-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 400px;
 }
 
-.login-form {
+.sign-form {
+    /* inicio centrar boton */
     display: flex;
     flex-direction: column;
+    /* fin centrar boton */
+
+
     align-items: center;
     border: 1px solid #0000001c;
     border-radius: 10px;
     padding: 15px 25px;
 }
 
-.login-form p {
-    margin-top: 10px;
-}
-
-.create-count-p {
+.parrafo {
     display: flex;
     justify-content: center;
     margin-top: 15px;

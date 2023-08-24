@@ -12,7 +12,7 @@ export const HomePage = () => {
       <div className="text-overlay">
       <h3>TEXTO SUPERPUESTO</h3>
       <h5>Sumérgete en la experiencia de nuestros selectos licores y mantén tu alegría en alto. Descubre el refinado sabor de nuestras bebidas exclusivas, ideales para los amantes del buen alcohol.</h5>
-      <button>ir</button>
+      <button>ir ahora</button>
       </div>
       </div>
 
