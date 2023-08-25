@@ -1,23 +1,17 @@
-import './App.css'
-import { MainRoutes } from './routes/MainRoutes'
+import "./App.css";
+import { MainRoutes } from "./routes/MainRoutes";
 
-const App =()=>{
-
+const App = () => {
   return (
     <>
-    
-    {/* <Navbar /> */}
-    {/* <h1>Vinedo</h1>
+      {/* <Navbar /> */}
+      {/* <h1>Vinedo</h1>
     <h6>Pasión por el vino</h6> */}
-   
-    <MainRoutes />
-    {/* <Footer/> */}
-  
 
-    
-      
+      <MainRoutes />
+      {/* <Footer/> */}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
