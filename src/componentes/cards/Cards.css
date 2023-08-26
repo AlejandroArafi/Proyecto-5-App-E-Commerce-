@@ -63,3 +63,21 @@
 .cards:hover {
   box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38); 
 }
+
+
+/* modal */
+
+.card-img-modal {
+  display: flex;
+  justify-content: center;
+ height: 400px;  /* o 500px*/
+}
+
+.card-body-modal h2{
+  font-size: 25px;
+  text-align: center;
+}
+.card-body-modal h4{
+text-align: center;
+}
+

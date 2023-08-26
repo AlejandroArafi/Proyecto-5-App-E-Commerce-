@@ -12,6 +12,7 @@
     width: 200px;
     color: #C1AE9C;
     background-color: rgb(205, 19, 19);
+    margin-top: 200px;
 }
 .category-box li{
     list-style: none;
@@ -26,3 +27,15 @@
     /* background-color: brown;      */
 }
 
+/* Puedes agregar esto a tu hoja de estilos o en una hoja aparte */
+
+.navbar-link {
+    transition: color 3s; /* Transición de color en 3 segundos */
+    color: #000; /* Color inicial */
+    text-decoration: none; /* Quitar subrayado de enlace */
+  }
+  
+  .navbar-link:hover {
+    color: #ffffff; /* Color al hacer hover */
+  }
+  
