@@ -7,13 +7,18 @@
   max-width: 1000px;
   margin: 0 auto;
   }
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
 
   .cards {
-  width: calc(33.33% - 20px); /* Distribución equitativa en tres columnas con espacio entre ellas */
-  max-width: 150px; /* Ancho máximo de cada tarjeta */ /*250px*/ 
+ 
+  max-width: 300px; /* Ancho máximo de cada tarjeta */ /*250px*/ 
    /* width: 300px; */
-   margin: 10px;
-   background-color: white;
+   margin: 20px;
+   background-color: rgb(255, 255, 255);
    border-radius: 15px;
    transition: 0.2s;
   }
@@ -22,6 +27,7 @@
   width: 100%;
   border-radius: 10px 10px 0px 0px; /*solo será visible si el color de fondo no es blanco*/
   background-color: #F1F1F1;
+ 
 }
 .card-body h2 {
   text-align: center;
