@@ -20,7 +20,7 @@ const decrement =()=>{
 // inicio logica modal
 
   return (
-        <div className="app">
+        <div className="app-counter">
         <div className="counter">
       <button onClick={decrement}>-</button>
       <span>{contador}</span>

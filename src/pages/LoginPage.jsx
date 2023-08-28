@@ -69,11 +69,11 @@ export const LoginPage = () => {
               id="exampleCheck1"
             />
             <label className="form-check-label" htmlFor="exampleCheck1">
-              Check me out
+              Recordarme
             </label>
           </div>
           <button type="submit" className="btn btn-primary">
-            Submit
+            Enviar
           </button>
         </form>
       </div>

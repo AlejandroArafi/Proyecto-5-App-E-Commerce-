@@ -1,10 +1,13 @@
+import { DiSantiFooter } from '../diSantiFooter/DiSantiFooter'
 import './Footer.css'
 
 export const Footer = () => {
   return (
     <>
     <div className="footer">
-        <div className="container">
+        <DiSantiFooter/>
+                    <div className="container">
+                        
             <div className="row">
                 <div className="footer-col">
                     <h4>Información</h4>

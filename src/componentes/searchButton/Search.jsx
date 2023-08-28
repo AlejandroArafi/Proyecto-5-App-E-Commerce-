@@ -22,7 +22,7 @@ export const Search = () => {
     <nav className="navbar navbar-light bg-light">
     <div className="container-fluid">
       <form onSubmit={onSubmit} className="d-flex">
-        <input onChange={onChange} value={query} className="form-control me-2" type="search" placeholder="Search  " aria-label="Search "/>
+        <input onChange={onChange} value={query} className="form-control me-2" type="search" placeholder="Buscar  " aria-label="Search "/>
         <button className="btn btn-outline-success" type="submit"> <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#444349",}} /></button>
       </form>
     </div>

@@ -1,17 +1,17 @@
-.title-diSanti {
+.title-diSantiFooter {
     font-size: 3em;
-    color: #444349;
+    color: #a6a6a6;
     letter-spacing: 0.5px;
     font-family: 'Playfair Display SC', serif;
     display: flex;
     justify-content: center;
 }
 
-.subtitle-diSanti {
+.subtitle-diSantiFooter {
     font-size: 1em;
     /* color:#A9A6A6 ; */
-    color: #ae8d69;
     letter-spacing: 3px;
+    color: #ae8d69 ;
     /* font-family: 'Playfair Display SC', serif; */
     display: flex;
     justify-content: center;

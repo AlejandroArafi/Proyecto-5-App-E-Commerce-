@@ -107,7 +107,7 @@ export const Signin = () => {
       </div>
       <div className="parrafo">
         <p>
-          Ya tienes una cuenta, <Link to="/login">Inicia sesión</Link>
+          ¿Ya tienes una cuenta?, <Link to="/login">Inicia sesión</Link>
         </p>
       </div>
     </>

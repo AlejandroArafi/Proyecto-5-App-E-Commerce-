@@ -3,7 +3,7 @@ import { HomePage } from "../pages/HomePage/HomePage";
 import { LoginPage } from "../pages/LoginPage";
 import { Signin } from "../pages/Signin";
 import { Navbar } from "../componentes/Navbar/Navbar";
-// import { Footer } from "../componentes/footer/Footer";
+import { Footer } from "../componentes/footer/Footer";
 import { ContactPage } from "../pages/ContactPage";
 import { ProductsPage } from "../pages/ProductsPage";
 import { Search } from "../componentes/searchButton/Search";
@@ -31,7 +31,7 @@ export const MainRoutes = () => {
         <Route path="contacto" element={<ContactPage />} />
         <Route path="results" element={<ResultsPage />} />
         </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

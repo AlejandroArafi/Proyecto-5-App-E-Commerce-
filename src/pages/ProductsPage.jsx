@@ -3,6 +3,7 @@
 import { NavLink } from 'react-router-dom'
 import { Cards } from '../componentes/cards/Cards'
 import './ProductsPage.css'
+import { Dropdown } from 'react-bootstrap'
 
 export const ProductsPage = () => {
   return (
@@ -23,12 +24,38 @@ export const ProductsPage = () => {
           <li className="nav-item">
             <NavLink className="nav-item nav-link" to="/productos">Viñas</NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-item nav-link" to="/login">Cepas</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-item nav-link" to="/contacto">Espumantes</NavLink>
-          </li>
+          <li className="nav-item dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle
+                      className="nav-link dropdown-toggle"
+                      variant="light"
+                      id="cepas-dropdown"
+                    >
+                      Cepas
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Cabernet Sauvignon</Dropdown.Item>
+                      <Dropdown.Item>Carmenere</Dropdown.Item>
+                      <Dropdown.Item>Merlot</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </li>
+                <li className="nav-item dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle
+                      className="nav-link dropdown-toggle"
+                      variant="light"
+                      id="cepas-dropdown"
+                    >
+                      Espumantes
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Brut</Dropdown.Item>
+                      <Dropdown.Item>Rosé</Dropdown.Item>
+                      <Dropdown.Item>Demi-sec</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </li>
         </ul>
       </div>
         </div>
