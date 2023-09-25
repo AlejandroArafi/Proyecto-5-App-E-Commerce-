@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../../assets/images/barbera.png'
-import img2 from '../../assets/images/capitulo.png'
-import img3 from '../../assets/images/flaberty.png'
+// import img1 from '../../assets/images/barbera.png'
+// import img2 from '../../assets/images/capitulo.png'
+// import img3 from '../../assets/images/flaberty.png'
  
 
 
@@ -13,7 +13,7 @@ export const Slider = () => {
       <Carousel.Item>
       <img
           className="d-block w-40 mx-auto"
-          src={img1}
+          src={'https://res.cloudinary.com/deq2bmgqk/image/upload/v1695607180/wineStore/capitulo-baja_yvkmlb.webp'}
           alt="First slide"
         />
                 <Carousel.Caption>
@@ -24,7 +24,7 @@ export const Slider = () => {
    
       <img
           className="d-block w-40 mx-auto"
-          src={img2}
+          src={'https://res.cloudinary.com/deq2bmgqk/image/upload/v1695607180/wineStore/capitulo-baja_yvkmlb.webp'}
           alt="First slide"
         />
         
@@ -35,7 +35,7 @@ export const Slider = () => {
       <Carousel.Item>
       <img
           className="d-block w-40 mx-auto"
-          src={img3}
+          src={'https://res.cloudinary.com/deq2bmgqk/image/upload/v1695607180/wineStore/capitulo-baja_yvkmlb.webp'}
           alt="First slide"
         />
                 <Carousel.Caption>
