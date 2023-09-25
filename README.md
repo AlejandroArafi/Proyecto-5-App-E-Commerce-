@@ -4,7 +4,7 @@ Bienvenido al repositorio de mi proyecto de e-commerce de venta de vinos en lín
 
 ## Descripción del Proyecto
 
-Desarrollé un e-commerce de venta de vinos en línea con las siguientes características clave:
+Proyecto sobre un e-commerce de venta de vinos en línea con las siguientes características clave:
 
 - **Sección de Productos:** Los usuarios pueden explorar y buscar una amplia variedad de vinos disponibles para su compra.
 
