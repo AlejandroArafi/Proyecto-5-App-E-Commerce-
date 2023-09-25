@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { HomePage } from "../pages/HomePage/HomePage";
 import { LoginPage } from "../pages/LoginPage";
 import { Signin } from "../pages/Signin";
-import { Navbar } from "../componentes/Navbar/Navbar";
+import { Navbar } from "../componentes/navbar/Navbar";
 import { Footer } from "../componentes/footer/Footer";
 import { ContactPage } from "../pages/ContactPage";
 import { ProductsPage } from "../pages/ProductsPage";

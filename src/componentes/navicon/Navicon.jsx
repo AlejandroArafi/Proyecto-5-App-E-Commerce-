@@ -20,13 +20,13 @@ export const Navicon = () => {
 
 <Nav defaultActiveKey="/home" as="ul">
 <Nav.Item as="li">
-  <Nav.Link href="/#"><FontAwesomeIcon icon={faCartShopping} style={{color: "#999999",}} /></Nav.Link>
+  <Nav.Link to="/#"><FontAwesomeIcon icon={faCartShopping} style={{color: "#999999",}} /></Nav.Link>
 </Nav.Item>
 <Nav.Item as="li">
-  <Nav.Link href="/login" ><FontAwesomeIcon icon={faUser} style={{color: "#999999",}} /></Nav.Link>
+  <Nav.Link to="/login" ><FontAwesomeIcon icon={faUser} style={{color: "#999999",}} /></Nav.Link>
 </Nav.Item>
 <Nav.Item as="li">
-  <Nav.Link href="/#"><FontAwesomeIcon icon={faGear} style={{color: "#999999",}} /></Nav.Link>
+  <Nav.Link to="/#"><FontAwesomeIcon icon={faGear} style={{color: "#999999",}} /></Nav.Link>
 </Nav.Item>
 </Nav>
   )

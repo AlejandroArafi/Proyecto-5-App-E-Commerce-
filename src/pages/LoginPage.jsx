@@ -1,8 +1,17 @@
 import { Link } from "react-router-dom";
 import "./LoginPage.css";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { UserContext } from "../context/user/userContext";
+import { types } from "../context/user/userReducer";
+import axios from "axios";
+
+
 
 export const LoginPage = () => {
+
+  const  [,dispatch] = useContext(UserContext)
+
+
   const initialFormData = {
     email: "",
     password: "",
@@ -19,7 +28,28 @@ export const LoginPage = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
+   try {
+
+    const {data}= axios.post('http://localhost:3000/users/login', formData, {
+      headers:{
+        "Content-Type": "application/json"
+      }
+    })
+
+
+    dispatch({
+      type: types.setUserState,
+      payload: data,
+    })
+    setformData(initialFormData) //reciente
+    
+   } catch (error) {
+    dispatch({
+      type: types.setError,
+      payload: error,
+    })
+   }
   };
 
   return (

@@ -20,6 +20,7 @@ body{
 .row {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .footer-col {
     width: 25%;

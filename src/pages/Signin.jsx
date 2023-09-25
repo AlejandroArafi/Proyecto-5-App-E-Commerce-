@@ -1,14 +1,21 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Signin.css";
+import { useContext } from "react";
+import { UserContext } from "../context/user/userContext";
+import { types } from "../context/user/userReducer";
+import axios from "axios";
 
 export const Signin = () => {
+
+  const [, dispatch] = useContext(UserContext)
+
   const initialFormData = {
     username: "",
     email: "",
     password: "",
   };
-
+ 
   const [formData, setformData] = useState(initialFormData);
 
   const handleInputChange = (e) => {
@@ -17,9 +24,27 @@ export const Signin = () => {
       [e.target.name]: e.target.value,
     });
   };
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+  
+    try {
+      const {data} = await axios.post('http://localhost:3000/users/register', formData, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      dispatch({
+        type: types.setUserState,
+        payload: data
+      })
+      window.alert('usuario registrado')
+
+    } catch (error) {
+      console.log(error)
+    window.alert('error al registrar usuario')
+    console.log(error)
+      
+    }
   };
 
   return (

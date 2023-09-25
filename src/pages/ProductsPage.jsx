@@ -21,10 +21,30 @@ export const ProductsPage = () => {
   
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <NavLink className="nav-item nav-link" to="/productos">Viñas</NavLink>
-          </li>
-          <li className="nav-item dropdown">
+        <li className="nav-item dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle
+                      className="nav-link dropdown-toggle"
+                      variant="light"
+                      id="cepas-dropdown"
+                    >
+                      Viñas
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Carmen</Dropdown.Item>
+                      <Dropdown.Item>Casas del Bosque</Dropdown.Item>
+                      <Dropdown.Item>Casas Patronales</Dropdown.Item>
+                      <Dropdown.Item>Cono Sur</Dropdown.Item>
+                      <Dropdown.Item>Errázuriz</Dropdown.Item>
+                      <Dropdown.Item>Flaherty Wines</Dropdown.Item>
+                      <Dropdown.Item>Montsecano</Dropdown.Item>
+                      <Dropdown.Item>Tarapaca</Dropdown.Item>
+                      <Dropdown.Item>Valdivieso</Dropdown.Item>
+                      
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </li>
+                    <li className="nav-item dropdown">
                   <Dropdown>
                     <Dropdown.Toggle
                       className="nav-link dropdown-toggle"
@@ -37,6 +57,11 @@ export const ProductsPage = () => {
                       <Dropdown.Item>Cabernet Sauvignon</Dropdown.Item>
                       <Dropdown.Item>Carmenere</Dropdown.Item>
                       <Dropdown.Item>Merlot</Dropdown.Item>
+                      <Dropdown.Item>Chardonnay</Dropdown.Item>
+                      <Dropdown.Item>Malbec</Dropdown.Item>
+                      <Dropdown.Item>Pinot Noir</Dropdown.Item>
+                      <Dropdown.Item>Syrah</Dropdown.Item>
+                      <Dropdown.Item>Tempranillo</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>
@@ -53,6 +78,24 @@ export const ProductsPage = () => {
                       <Dropdown.Item>Brut</Dropdown.Item>
                       <Dropdown.Item>Rosé</Dropdown.Item>
                       <Dropdown.Item>Demi-sec</Dropdown.Item>
+                      <Dropdown.Item>Champagne</Dropdown.Item>
+                      <Dropdown.Item>Extra Brut</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </li>
+                <li className="nav-item dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle
+                      className="nav-link dropdown-toggle"
+                      variant="light"
+                      id="cepas-dropdown"
+                    >
+                      Linea
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>Reserva</Dropdown.Item>
+                      <Dropdown.Item>Gran Reserva</Dropdown.Item>
+                      <Dropdown.Item>Premium</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>
